@@ -209,7 +209,7 @@ foreach ($files as $file) {
 }
 
 if (! $usePhpCsFixer) {
-    safeUnlink(__DIR__ . '/.php_cs.dist.php');
+    safeUnlink(__DIR__ . '/.php-cs-fixer.dist.php');
     safeUnlink(__DIR__ . '/.github/workflows/php-cs-fixer.yml');
 }
 
