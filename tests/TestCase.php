@@ -12,9 +12,9 @@ class TestCase extends Orchestra
     {
         parent::setUp();
 
-        Factory::guessFactoryNamesUsing(
+        /*Factory::guessFactoryNamesUsing(
             fn (string $modelName) => 'VendorName\\Skeleton\\Database\\Factories\\'.class_basename($modelName).'Factory'
-        );
+        );*/
     }
 
     protected function getPackageProviders($app)
