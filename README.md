@@ -16,6 +16,13 @@ This repo can be used to scaffold a Laravel package. Follow these steps to get s
 <!--/delete-->
 This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
 
+## About Combind Agency
+
+[Combine Agency](https://combind.ma?utm_source=github&utm_medium=banner&utm_campaign=package_name) is a leading web development agency specializing in building innovative and high-performance web applications using modern technologies. Our experienced team of developers, designers, and project managers is dedicated to providing top-notch services tailored to the unique needs of our clients.
+
+If you need assistance with your next project or would like to discuss a custom solution, please feel free to [contact us](mailto:hello@combind.ma) or visit our [website](https://combind.ma?utm_source=github&utm_medium=banner&utm_campaign=package_name) for more information about our services. Let's build something amazing together!
+
+
 ## Installation
 
 You can install the package via composer:
