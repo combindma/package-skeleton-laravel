@@ -20,16 +20,9 @@ backupStaticProperties="false"
         <directory>tests</directory>
     </testsuite>
 </testsuites>
-<!--<coverage>
-    <report>
-        <html outputDirectory="build/coverage"/>
-        <text outputFile="build/coverage.txt"/>
-        <clover outputFile="build/logs/clover.xml"/>
-    </report>
-</coverage>
 <logging>
     <junit outputFile="build/report.junit.xml"/>
-</logging>-->
+</logging>
 <php>
     <env name="APP_KEY" value="base64:2fl+Ktvkfl+Fuz4Qp/A75G2RTiWVA/ZoKZvp6fiiM10="/>
 </php>

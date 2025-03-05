@@ -12,9 +12,9 @@ class TestCase extends Orchestra
     {
         parent::setUp();
 
-        /*Factory::guessFactoryNamesUsing(
+        Factory::guessFactoryNamesUsing(
             fn (string $modelName) => 'VendorName\\Skeleton\\Database\\Factories\\'.class_basename($modelName).'Factory'
-        );*/
+        );
     }
 
     protected function getPackageProviders($app)
@@ -34,8 +34,9 @@ class TestCase extends Orchestra
         ]);
         config()->set('app.locale', 'fr');
         /*
-        $migration = include __DIR__.'/../database/migrations/create_skeleton_table.php.stub';
-        $migration->up();
-        */
+         foreach (\Illuminate\Support\Facades\File::allFiles(__DIR__ . '/database/migrations') as $migration) {
+            (include $migration->getRealPath())->up();
+         }
+         */
     }
 }
